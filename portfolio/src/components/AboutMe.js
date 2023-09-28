@@ -1,9 +1,8 @@
 import React from 'react';
-import jaredIcon from '../assets/images/About_Me_Image.png'
 import aboutmeIcon from '../assets/images/About_Me_Image.png'
 import '../styles/AboutMe.css';
-
-<main class="center"><img src={jaredIcon} alt="Picture of Jared Stratton" width="300" height="300"/></main>
+import '../styles/global.css';
+import '../styles/App.css';
 
 function AboutMe() {
   return (
