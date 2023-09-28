@@ -1,0 +1,33 @@
+/* Footer at bottom of page will have the below properties */
+.footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C5C8C9;
+    color: #F4FDFF;
+    text-align: center;
+}
+/* Footer at bottom of page will have the below properties for the heading */
+.footer h2 {
+    font-size: 20px;
+}
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    header {
+      background: #44DEE3;
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #C5C8C9;
+    }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    img {
+      background-color: #44DEE3;
+    }
+  }
