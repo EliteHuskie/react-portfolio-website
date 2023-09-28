@@ -28,14 +28,14 @@ p {
 /* Using this class will have the below settings */
 .about-me {
     margin-top: 10px;
-    margin-bottom: -50px;
+    margin-bottom: 150px;
     margin-left: -600px;
     margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* Applies settings to paragraph about-me */
 p.about-me {
-    top: 150px;
+    top: 340px;
     right: -1750px;
     position: relative;
     width: 75%;

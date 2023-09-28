@@ -4,6 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #C5C8C9;
     color: #F4FDFF;
+    width: 100%;
 }
 /* Applies to the Header <h1> element */
 .header h1 {

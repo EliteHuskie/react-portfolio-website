@@ -5,6 +5,10 @@
     background-color: #C5C8C9;
     color: #F4FDFF;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 /* Footer at bottom of page will have the below properties for the heading */
 .footer h2 {
