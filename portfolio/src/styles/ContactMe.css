@@ -8,11 +8,21 @@
 }
 /* Properties for list contact-me */
 li.contact-me {
-    top: -150px;
-    right: -1400px;
+    top: 200px;
+    right: -1175px;
     padding: 0px;
     position: relative;
     inline-size: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    color: #F4FDFF;
+}
+/* Properties for resume */
+.resume {
+    top: 100px;
+    right: 100px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
     color: #F4FDFF;
 }
