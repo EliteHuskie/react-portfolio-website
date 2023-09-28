@@ -1,0 +1,14 @@
+/* global.css */
+
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global styles */
+body {
+    background-color: #44DEE3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

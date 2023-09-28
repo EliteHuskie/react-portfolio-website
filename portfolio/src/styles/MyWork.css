@@ -1,0 +1,46 @@
+/* Using this class with elements will have the below effects */
+.my-work {
+    margin-top: -80px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    margin-right: 50px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Applies below properties to challenge-01 class */
+.challenge-01 {
+    margin-top: -232px;
+    margin-bottom: 10px;
+    margin-left: 585px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Applies below properties to project-01 class */
+.project-01 {
+    margin-top: -232px;
+    margin-bottom: 10px;
+    margin-left: 1000px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Applies below properties to project-02 class */
+.project-02 {
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: 1000px;
+    margin-right: 0px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Applies background color + display to .brightness */
+.brightness {
+    background-color: #C5C8C9;
+    display: inline-block;
+}
+/* Hover over setting for image */
+.brightness img:hover {
+    opacity: .5;
+}

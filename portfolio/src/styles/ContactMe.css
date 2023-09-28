@@ -1,0 +1,18 @@
+/* Using the class below will have the following properties */
+.contact-me {
+    margin-top: 33px;
+    margin-bottom: -35px;
+    margin-left: 250px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Properties for list contact-me */
+li.contact-me {
+    top: -125px;
+    right: -350px;
+    padding: 0px;
+    position: relative;
+    inline-size: 49%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F4FDFF;
+}
