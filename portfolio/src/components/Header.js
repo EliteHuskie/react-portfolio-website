@@ -1,5 +1,9 @@
 import React from 'react';
 import '../styles/Header.css';
+import jaredIcon from '../assets/images/Jared-Stratton-Picture.jpeg'
+import '../styles/global.css';
+import '../styles/App.css';
+
 
 function Header() {
   return (
@@ -19,6 +23,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <main><img src={jaredIcon} alt="Picture of Jared Stratton" width="300" height="300"/></main>
     </header>
   );
 }
