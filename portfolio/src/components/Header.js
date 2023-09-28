@@ -1,11 +1,10 @@
 import React from 'react';
 import '../styles/Header.css';
-import jaredIcon from '../assets/images/Jared-Stratton-Picture.jpeg'
 import '../styles/global.css';
 import '../styles/App.css';
 
 
-function Header() {
+function Header({currentPage, handlePageChange}) {
   return (
     <header className="header">
       <h1>Jared Stratton</h1>
@@ -13,17 +12,16 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>About Me</a>
           </li>
           <li>
-            <a href="#my-work">My Work</a>
+          <a href="#my-work" onClick={() => handlePageChange('MyWork')} className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}>My Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+          <a href="#contact-me" onClick={() => handlePageChange('ContactMe')} className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
           </li>
         </ul>
       </nav>
-      <main><img src={jaredIcon} alt="Picture of Jared Stratton" width="300" height="300"/></main>
     </header>
   );
 }

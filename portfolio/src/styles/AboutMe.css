@@ -12,8 +12,9 @@ p {
 .center {
     padding-top: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -50px;
+    margin-left: 500px;
+    margin-right: 500px;
     width: 20%;
     color: #F4FDFF;
 }
@@ -26,19 +27,19 @@ p {
 }
 /* Using this class will have the below settings */
 .about-me {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: -300px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    margin-left: -600px;
     margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* Applies settings to paragraph about-me */
 p.about-me {
-    top: -150px;
-    right: -1300px;
+    top: 150px;
+    right: -1750px;
     position: relative;
     width: 75%;
-    inline-size: 49%;
+    inline-size: 35%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: #F4FDFF;
