@@ -29,8 +29,8 @@ function App() {
   return (
     <div className="App">
       <div className="page-container">
+      <Header handlePageChange={handlePageChange} />
         <div className="content">
-          <Header handlePageChange={handlePageChange} />
           {renderPage()}
         </div>
         <Footer />
