@@ -1,0 +1,29 @@
+/* Header element uses the below settings */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C5C8C9;
+    color: #F4FDFF;
+}
+/* Applies to the Header <h1> element */
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+/* Navigation element settings */
+.header nav {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+/* Navigation <ul> setting */
+.header nav ul {
+    list-style-type: none;
+}
+/* Navigation <li> settings for display + margin-left */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}

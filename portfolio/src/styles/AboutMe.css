@@ -1,0 +1,44 @@
+/* Anchor elements get a specific color and text-decoration setting + font-weight */
+a {
+    color: #F4FDFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Paragraphs have a font-size of 16px */
+p {
+    font-size: 16px;
+}
+/* Class that will center elements */
+.center {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color: #F4FDFF;
+}
+/* Content with this class will have the below properties */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 300px;
+    padding-top: 10px;
+}
+/* Using this class will have the below settings */
+.about-me {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Applies settings to paragraph about-me */
+p.about-me {
+    top: -150px;
+    right: -350px;
+    position: relative;
+    inline-size: 49%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #F4FDFF;
+}
